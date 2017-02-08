@@ -79,6 +79,7 @@ public class Grid {
 	}
 	/**
 	 * Create the labels
+	 * @param p
 	 */
 	public void makeGrid(JPanel p){
 		for(int i=0;i<16;i++){
