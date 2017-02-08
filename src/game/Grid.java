@@ -10,12 +10,15 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.SwingConstants;
-
+/**
+ * this class is the GUI of the game
+ * 
+ * @author patrick hanna
+ */
 
 public class Grid {
 
 	private JFrame frame;
-	// hashmap to all the labels to keep track of them
 	public HashMap<Integer,JLabel> labels= new HashMap<Integer,JLabel>();
 	public JLabel scorePanel;
 	public int score=0;
@@ -54,6 +57,7 @@ public class Grid {
 		frame = new JFrame();
 		frame.getContentPane().setBackground(Color.YELLOW);
 		frame.getContentPane().setLayout(null);		
+		
 		//main panel where the numbers will show up and move within the grid.
 		JPanel panel = new JPanel();
 		panel.setBackground(Color.RED);
@@ -77,7 +81,10 @@ public class Grid {
 		frame.setBounds(100, 100, 517, 500);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
-	//method to create the labels
+	/**
+	 * Create the labels
+	 * @param p
+	 */
 	public void makeGrid(JPanel p){
 		for(int i=0;i<16;i++){
 				labels.put(i,new JLabel());
@@ -88,6 +95,5 @@ public class Grid {
 				p.add(labels.get(i));
 		}
 	}
-	//generates a numberBox at a random location on the grid, and sets the label to the number of the numberBox.
 	
 }
