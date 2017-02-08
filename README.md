@@ -10,6 +10,7 @@ some of the things that i know are needed/ wanted are:
 - an OS specific executable for each of the mainstream OSs
 - optimization of the code.
 - limiting the CPU usage.
+
 most of which i know how to do/ can figure out how to do fairly quickly.
 (fairly quickly meaning in < 2 days)
 all in all, i know this is not fantastic.
