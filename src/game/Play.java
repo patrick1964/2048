@@ -7,7 +7,8 @@ package game;
  * in order to get to 2048
  * 
  * this class is main class of the game
- * 
+ * @author patrick hanna
+ * @version 1.0
  */
 
 import java.awt.event.KeyEvent;

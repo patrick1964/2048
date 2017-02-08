@@ -1,5 +1,10 @@
 package game;
 import java.util.*;
+/**
+ * this class in the object pieces of the game.
+ * 
+ * @author patrick hanna
+ */
 
 public class NumberBox {
 	
