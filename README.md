@@ -14,6 +14,6 @@ some of the things that i know are needed/ wanted are:
 most of which i know how to do/ can figure out how to do fairly quickly.
 (fairly quickly meaning in < 2 days)
 all in all, i know this is not fantastic.
-i am not very experienced.
-i hope this shows my dedication and commitment to improvement,
+i am not very experienced,
+but i hope this shows my dedication and commitment to improvement,
 if not my capacity to learn and love of programming.
